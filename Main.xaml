@@ -90,7 +90,7 @@
         <OutArgument x:TypeArguments="x:Double">[In_amount]</OutArgument>
       </ui:InputDialog.Result>
     </ui:InputDialog>
-    <ui:InputDialog Options="{x:Null}" Title="{x:Null}" DisplayName="Input Dialog" sap:VirtualizedContainerService.HintSize="338,309.3333333333333" sap2010:WorkflowViewState.IdRef="InputDialog_2" IsPassword="False" Label="choose the time period" OptionsString="1;2;3">
+    <ui:InputDialog Options="{x:Null}" Title="{x:Null}" DisplayName="Input Dialog" sap:VirtualizedContainerService.HintSize="338,309.3333333333333" sap2010:WorkflowViewState.IdRef="InputDialog_2" IsPassword="False" Label="choose the time period" OptionsString="1;2;3;4;5;6;7">
       <ui:InputDialog.Result>
         <OutArgument x:TypeArguments="x:Int32">[In_year]</OutArgument>
       </ui:InputDialog.Result>
