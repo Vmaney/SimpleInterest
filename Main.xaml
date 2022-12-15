@@ -90,7 +90,7 @@
         <OutArgument x:TypeArguments="x:Double">[In_amount]</OutArgument>
       </ui:InputDialog.Result>
     </ui:InputDialog>
-    <ui:InputDialog Options="{x:Null}" Title="{x:Null}" DisplayName="Input Dialog" sap:VirtualizedContainerService.HintSize="338,309.3333333333333" sap2010:WorkflowViewState.IdRef="InputDialog_2" IsPassword="False" Label="choose the time period" OptionsString="1;2;3;4;5;6;7">
+    <ui:InputDialog Options="{x:Null}" Title="{x:Null}" DisplayName="Input Dialog" sap:VirtualizedContainerService.HintSize="338,309.3333333333333" sap2010:WorkflowViewState.IdRef="InputDialog_2" IsPassword="False" Label="choose the time period" OptionsString="1;2;3">
       <ui:InputDialog.Result>
         <OutArgument x:TypeArguments="x:Int32">[In_year]</OutArgument>
       </ui:InputDialog.Result>
@@ -103,6 +103,6 @@
       </ui:InvokeWorkflowFile.Arguments>
     </ui:InvokeWorkflowFile>
     <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" AutoCloseAfter="00:00:00" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="338,95.33333333333333" sap2010:WorkflowViewState.IdRef="MessageBox_1" Text="[&quot;si is &quot;+simpleinterest.ToString]" />
-    <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" AutoCloseAfter="00:00:00" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="338,95.33333333333333" sap2010:WorkflowViewState.IdRef="MessageBox_2" Text="[&quot;The End&quot;]" />
+    <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" AutoCloseAfter="00:00:00" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="338,95.33333333333333" sap2010:WorkflowViewState.IdRef="MessageBox_2" Text="[&quot;The &quot;]" />
   </Sequence>
 </Activity>
